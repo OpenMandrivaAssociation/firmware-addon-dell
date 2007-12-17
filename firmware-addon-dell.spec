@@ -16,7 +16,6 @@ BuildRequires:  python-devel
 # the -bin package
 Requires:       libsmbios-bin 
 Requires:       firmware-tools >= 0:1.5
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 The firmware-addon-dell package provides plugins to firmware-tools which enable
