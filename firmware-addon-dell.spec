@@ -1,6 +1,6 @@
 Name:           firmware-addon-dell
 Version:        1.4.8
-Release:        %mkrel 1
+Release:        %mkrel 3
 Summary:        A firmware-tools plugin to handle BIOS/Firmware for Dell systems
 Group:          System/Kernel and hardware
 License:        GPLv2+ or OSL
