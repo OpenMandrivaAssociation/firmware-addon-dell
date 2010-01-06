@@ -1,7 +1,7 @@
 Summary:	A firmware-tools plugin to handle BIOS/Firmware for Dell systems
 Name:		firmware-addon-dell
-Version:	2.1.0
-Release:	%mkrel 2
+Version:	2.2.1
+Release:	%mkrel 1
 Group:		System/Kernel and hardware
 License:	GPLv2+
 URL:		http://linux.dell.com/libsmbios/download/ 
@@ -45,7 +45,5 @@ rm -rf %{buildroot}
 %doc COPYING-GPL COPYING-OSL README TODO AUTHORS
 %{python_sitelib}/*
 %config(noreplace) %{_sysconfdir}/firmware/firmware.d/*.conf
-%exclude %{_sysconfdir}/yum/pluginconf.d/dellsysidplugin.conf
 %{_datadir}/firmware/dell
-%exclude %{_prefix}/lib/yum-plugins/dellsysidplugin.py*
 %{_datadir}/firmware-tools/*
