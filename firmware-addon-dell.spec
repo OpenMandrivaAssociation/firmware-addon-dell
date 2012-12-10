@@ -47,3 +47,47 @@ rm -rf %{buildroot}
 %config(noreplace) %{_sysconfdir}/firmware/firmware.d/*.conf
 %{_datadir}/firmware/dell
 %{_datadir}/firmware-tools/*
+
+
+%changelog
+* Sun Nov 07 2010 Jani Välimaa <wally@mandriva.org> 2.2.9-1mdv2011.0
++ Revision: 594665
+- new version 2.2.9
+- rebuild for python 2.7
+
+* Wed Jan 06 2010 Guillaume Rousse <guillomovitch@mandriva.org> 2.2.1-1mdv2010.1
++ Revision: 486958
+- new version
+
+* Thu Sep 10 2009 Thierry Vignaud <tv@mandriva.org> 2.1.0-2mdv2010.0
++ Revision: 437546
+- rebuild
+
+* Tue Feb 10 2009 Tomasz Pawel Gajc <tpg@mandriva.org> 2.1.0-1mdv2009.1
++ Revision: 339269
+- update to new version 2.1.0
+- new license policy
+- spec file clean
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 1.4.8-4mdv2009.1
++ Revision: 325206
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.4.8-3mdv2009.0
++ Revision: 245192
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.4.8-1mdv2008.1
++ Revision: 136415
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Sep 04 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.4.8-1mdv2008.0
++ Revision: 79556
+- import firmware-addon-dell
+
+
+* Mon Sep 03 2007 Guillaume Rousse <guillomovitch@mandriva.org> 1.4.8-1mdv2008.0
+- contributed by Olivier Lahaye <olivier.lahaye at free.fr>
