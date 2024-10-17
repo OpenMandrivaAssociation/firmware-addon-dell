@@ -7,7 +7,7 @@ Version:	2.2.9
 Release:	3
 License:	GPLv2+
 Group:		System/Kernel and hardware
-Url:		http://linux.dell.com/libsmbios/download/ 
+Url:		https://linux.dell.com/libsmbios/download/ 
 Source0:	http://linux.dell.com/libsmbios/download/%{name}/%{name}-%{version}/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
 # I know rpmlint complains about this (An ERROR, in fact), but it is a
