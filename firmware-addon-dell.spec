@@ -9,6 +9,11 @@ License:	GPLv2+
 Group:		System/Kernel and hardware
 Url:		https://linux.dell.com/libsmbios/download/ 
 Source0:	http://linux.dell.com/libsmbios/download/%{name}/%{name}-%{version}/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(python)
 # I know rpmlint complains about this (An ERROR, in fact), but it is a
 # false positive. Auto deps cannot find this one because I actually am running
